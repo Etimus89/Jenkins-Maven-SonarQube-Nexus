@@ -11,7 +11,7 @@ systemctl enable jenkins
 systemctl start jenkins
 
 # Apache Maven Installation/Config
-sudo su
+
 yum update -y
 sudo amazon-linux-extras install java-openjdk11 -y  # Use for Java and Maven Compiler
 sudo /usr/sbin/alternatives --config java  # NOTE: Select 4 for java11
